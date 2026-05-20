@@ -1,0 +1,22 @@
+{
+  "questions": [
+    {
+      "text": "What is the transformation of sir johnny?",
+      "points": 5,
+      "options": ["Fire Wolf", "Boogle", "Javan"],
+      "correctAnswer": "Fire Wolf"
+    },
+    {
+      "text": "What language does Carlo know",
+      "points": 5,
+      "options": ["German", "Python", "Russian"],
+      "correctAnswer": "Python"
+    },
+    {
+      "text": "What is the most difficult subject?",
+      "points": 5,
+      "options": ["ESP", "COMPRO", "CFVE"],
+      "correctAnswer": "COMPRO"
+    }
+  ]
+}

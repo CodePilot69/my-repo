@@ -1,7 +1,9 @@
 package com.finals.model;
+
 import java.util.List;
 
-class MultipleChoice extends Question {
+public class MultipleChoice extends Question {
+
     List<String> options;
     String correctAnswer;
 
@@ -16,5 +18,7 @@ class MultipleChoice extends Question {
         return answer.equalsIgnoreCase(correctAnswer);
     }
 
-    public List<String> getOptions() { return options; }
+    public List<String> getOptions() {
+        return options;
+    }
 }

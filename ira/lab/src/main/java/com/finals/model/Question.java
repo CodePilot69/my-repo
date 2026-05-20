@@ -1,6 +1,7 @@
 package com.finals.model;
 
-abstract class Question {
+public abstract class Question {
+
     String text;
     int points;
 
@@ -10,8 +11,12 @@ abstract class Question {
     }
 
     public abstract boolean checkAnswer(String answer);
-    public String getText() { return text; }
-    public int getPoints() { return points; }
+
+    public String getText() {
+        return text;
+    }
+
+    public int getPoints() {
+        return points;
+    }
 }
-
-
